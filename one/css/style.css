@@ -1,0 +1,32 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1{
+    margin-top:20px; margin-bottom: 20px;
+}
+
+
+a{  
+    display: inline; 
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: lightpink;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px; 
+    font-size: 12px;
+}
+
+

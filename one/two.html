@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 4주차 과제 21661084_윤수영 </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/two.css">
+    </head>
+    <body>
+        <a href="index.html"><h1 align="center"><font color="pink" size="8pt">css</font>&nbsp; Homepage</h1></a>
+
+        <p id="cc">
+        <a href="one.html">TEXT</a> |
+        <a href="two.html">TABLE</a> |
+        <a href="three.html">FORM</a> |
+        <a href="end.html">POSITION</a>
+        </p>
+        <hr>
+            <h5>테이블 형태</h5>
+                <table border="1px" cellspacing="0" cellpadding="3">
+                    <tr bgcolor="#F48FB1">  <!--1행 -->
+                        <th width="150"><font face="궁서">1행의 1열 제목</font></th>
+                        <th width="150">1행의 2열 제목</th>
+                    </tr>
+                    <tr style="background-color: #F8BBD0; font-family: 맑은고딕;">  <!--2행 -->
+                        <td>2행의 1열 데이터</td>
+                        <td>2행의 2열 데이터</td>
+                    </tr>
+                    <tr style="background-color:#FFEBEE;">  <!--3행 -->
+                        <td>3행의 1열 데이터</td>
+                        <td>3행의 2열 데이터</td>
+                    </tr>
+	            </table>
+
+            <h5>열 합침이 부여된 테이블</h5>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr bgcolor="pink">  <!--1행 -->
+                        <td>1행의 1열 데이터</td>
+                        <td>1행의 2열 데이터</td>
+                    </tr>
+                    <tr style="background-color:#FFEBEE;">  <!--2행 -->
+                            <td colspan="2">2행의 1열 데이터</td>
+                    </tr>
+                </table>
+            <h5>행 합치기</h5>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>  <!--1행 -->
+                        <td rowspan="2" bgcolor="pink">1행의 1열 데이터</td>
+                        <td>1행의 2열 데이터</td>
+                    </tr>
+                    <tr>  <!--2행 -->
+                        <td>2행의 2열 데이터</td>
+
+                    </tr>
+		        </table>
+            <h5>행 합침이 부여된 테이블1</h5>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr bgcolor="#F48FB1">  <!--1행 -->
+                        <td>1행의 1열 데이터</td>
+                        <td>1행의 2열 데이터</td>
+                    </tr>
+                    <tr>  <!--2행 -->
+                        <td>2행의 1열 데이터</td>
+                        <td rowspan="2" bgcolor="#FFEBEE">2행의 2열 데이터</td>
+                    </tr>
+                    <tr>  <!--3행 -->
+                        <td>3행의 1열 데이터</td>
+                    </tr>
+		        </table>
+
+				<h5>행 합침이 부여된 테이블2</h5>
+                    <table border="1" cellpadding="5" cellspacing="0">
+                        <tr bgcolor="#F48FB1">  <!--1행 -->
+                            <td>1행의 1열 데이터</td>
+                            <td>1행의 2열 데이터</td>
+                        </tr>
+                        <tr>  <!--2행 -->
+                            <td rowspan="2" bgcolor="#FFEBEE">2행의 1열 데이터</td>
+                            <td>2행의 2열 데이터</td>
+                        </tr>
+                        <tr>  <!--3행 -->
+                            <td>3행의 열 데이터</td>
+                        </tr>
+                    </table>
+                <h5>출석부</h5>
+                    <table border="1" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <th>학과</th>
+                            <th>학번</th>
+                            <th>이름</th>
+                            <th>전화번호</th>
+                        </tr>
+                        <tr>
+                            <td>디지털미디어디자인</td>
+                            <td>21661084</td>
+                            <td>윤수영</td>
+                            <td>010.6275.2734</td>
+                        </tr>
+                    </table>
+            <hr>
+
+    </body>
+</html>
